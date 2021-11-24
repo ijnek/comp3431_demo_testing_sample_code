@@ -1,0 +1,39 @@
+ros2 service call /set_map_info comp3431_interfaces/srv/MapInfo "
+blocks:
+  - text: 'dining-room coffee banana'
+    pose:
+      position:
+        x: 4.0
+        y: 1.5
+        z: 0.1
+  - text: 'kitchen fanta apple'
+    pose:
+      position:
+        x: 5.5
+        y: -1.0
+        z: 0.1
+  - text: 'pantry'
+    pose:
+      position:
+        x: 0.5
+        y: 3.0
+        z: 0.1
+  - text: 'living-room'
+    pose:
+      position:
+        x: -3.0
+        y: 4.2
+        z: 0.1
+  - text: 'storage-room'
+    pose:
+      position:
+        x: -7.0
+        y: 2.0
+        z: 0.1
+  - text: 'study orange'
+    pose:
+      position:
+        x: -7.0
+        y: -2.0
+        z: 0.1
+"
