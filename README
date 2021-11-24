@@ -1,0 +1,5 @@
+# Things to check
+
+* solution.txt doesn't exist before demo
+* problem.pddl doesn't exist before demo
+* students haven't hardcoded qr code locations and problem file. If they have, deduct marks.
