@@ -1,0 +1,4 @@
+ros2 action send_goal /move_object_to_room comp3431_interfaces/action/MoveObjectToRoom "
+object: 'orange'
+room: 'kitchen'
+"
